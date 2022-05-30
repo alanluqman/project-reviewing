@@ -62,10 +62,10 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
 }
