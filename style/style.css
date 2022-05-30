@@ -1,0 +1,70 @@
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 4rem;
+  margin: 1rem 0;
+}
+
+.header {
+  padding: 2rem 20rem;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgba(98, 181, 248, 0.5);
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 1rem 3rem;
+  display: inline-block;
+}
+
+.page-title {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.form {
+  width: 50vw;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+.input {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  border: 1px solid rgb(215, 216, 216);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 5px rgba(98, 181, 248, 0.3);
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(185, 185, 185);
+}
+
+.submit {
+  color: rgb(98, 181, 248);
+}
+
+.submit:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(98, 181, 248);
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
