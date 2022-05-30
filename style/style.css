@@ -13,7 +13,7 @@ html {
   padding: 2rem 20rem;
   font-size: 3rem;
   text-align: center;
-  background-color: rgba(98, 181, 248,0.5);
+  background-color: rgba(98, 181, 248, 0.5);
 }
 
 .nav-link {
@@ -35,7 +35,7 @@ html {
   text-align: center;
 }
 
-.input{
+.input {
   font-size: 2rem;
   padding: 1rem 2rem;
   border-radius: 2rem;
@@ -44,7 +44,7 @@ html {
 }
 
 .input:focus {
-  box-shadow: 0 0 0 5px rgba(98, 181, 248,0.3);
+  box-shadow: 0 0 0 5px rgba(98, 181, 248, 0.3);
   outline: none;
 }
 
@@ -60,11 +60,12 @@ html {
   color: rgb(255, 255, 255);
   background-color: rgb(98, 181, 248);
 }
- 
-@media screen and (min-width:1024px) {
-    .header{
-        display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    }
+
+@media screen and (min-width: 1024px) {
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 }
